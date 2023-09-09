@@ -1,11 +1,9 @@
-export default function Post(){
+export default function Post(props){
+    console.log(props);
     return (
     <div>
-        <h1> Post </h1> 
-        <p>descriçaõ dos post</p>
+        <h1> {props.author} </h1> 
+        <p> {props.content} </p>
     </div>
     );
 }
-
-
-
