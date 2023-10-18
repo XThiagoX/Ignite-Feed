@@ -30,7 +30,9 @@ export default function Post(){
                 <textarea 
                     placeholder='deixe seu comentário'
                 />
-                <button type='submit'>Comentar</button>
+                <footer>
+                    <button type='submit'>Comentar</button>
+                </footer>
             </form>
         </article>
     )

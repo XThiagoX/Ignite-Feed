@@ -99,6 +99,18 @@
     transition: background-color 0.1s;
 }
 
+.comentForm footer{
+    visibility: hidden;
+    max-height: 0;
+}
+
+.comentForm:focus-within footer{
+/* Qundo houver foco em qualquer elemento do 
+'.commnetForm', o footer terá as seguintes propriedades:*/
+    visibility: visible;
+    max-height: none;
+}
+
 .comentForm button[type=submit]{
     font-weight: bold;
     cursor: pointer;
@@ -109,6 +121,7 @@
     margin-top: 1rem;
     border: 0;   
 }
+
 .comentForm button[type=submit]:hover{
     background: var(--green-300);
 
