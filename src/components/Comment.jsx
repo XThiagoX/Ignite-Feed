@@ -14,7 +14,7 @@ export default function Comment(){
                             <time title='10 de outubro de 2023' dateTime=''>Publicado há 1 hora atrás</time>                                
                         </div>
                         <button title='Deletat comentário'>
-                            <Trash size={20}/>
+                            <Trash size={24}/>
                         </button>
                     </header> 
                     <p>Muito bom thiago, parabéns seu lindo</p>
